@@ -3,11 +3,11 @@ auth:
     username: $USERNAME
     password: $PASSWORD
 images:
-    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:latest: tekton/pipeline_controller
-    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint:latest: tekton/pipeline_entrypoint
-    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop:latest: tekton/pipeline_nop
-    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/sidecarlogresults:latest: tekton/pipeline_sidecarlogresults
-    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:latest: tekton/pipeline_workingdirinit
-    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/events:latest: tekton/pipeline_events
-    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers:latest: tekton/pipeline_resolvers
-    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:latest: tekton/pipeline_webhook
+    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:latest: txowner/pipeline_controller
+    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/entrypoint:latest: txowner/pipeline_entrypoint
+    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/nop:latest: txowner/pipeline_nop
+    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/sidecarlogresults:latest: txowner/pipeline_sidecarlogresults
+    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/workingdirinit:latest: txowner/pipeline_workingdirinit
+    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/events:latest: txowner/pipeline_events
+    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers:latest: txowner/pipeline_resolvers
+    gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:latest: txowner/pipeline_webhook
